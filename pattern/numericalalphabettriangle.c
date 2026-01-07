@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main(){
+    int n,i,j;
+    printf("number of rows");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+        int a=1;
+        for(int j=1;j<=i;j++){
+            if(i%2!=0){
+            printf("%d",a);}
+            else{
+            
+            
+            printf("%c",a+64);}
+            a++;
+        }
+     printf("\n");   
+    }
+return 0;
+}
